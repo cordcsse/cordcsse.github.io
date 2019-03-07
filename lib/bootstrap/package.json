@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "version": "4.3.1",
+  "homepage": "http://getbootstrap.com",
+  "author": "Twitter, Inc.",
+  "style": "css/bootstrap.min.css",
+  "main": "js/boostrap.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twbs/bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.9.1 <4.0.0",
+    "popper": ""
+  },
+  "releases": [
+    { "label": "all", "js": ["bootstrap-bundle"] },
+    { "label": "noComponents", "": [""] },
+    { "label": "" },
+    { "label": "" }
+  ],
+  "files": [
+    "js/",
+    "LICENSE"
+  ]
+}
